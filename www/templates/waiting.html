@@ -1,0 +1,25 @@
+<ion-view>
+    <ion-header-bar align-title="left" class="bar-positive">
+        <h1 class="title" style="text-align: center;">WakeAPP</h1>
+    </ion-header-bar>
+    <ion-content class="has-header" cache-view="false">
+        <div style="margin-top: 40%;">
+            <div class="card">
+                <div class="item item-text-wrap">
+                    Waiting for {{$root.station}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <!-- <div><canvas id="canvas" width="300" height="200"></canvas></div> -->
+                    <h2>{{$root.clock}}</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="item item-text-wrap">
+                    Text is {{$root.recognizedText}}
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
